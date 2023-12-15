@@ -1,15 +1,40 @@
-# Aplicativo de Pedidos de Hamburgueria
+# API de Hamburgueria
+Uma API para gerenciar usuários, pedidos, produtos, categorias e ofertas de uma hamburgueria.
 
-Este é um projeto de estudo de uma API de pedidos de hamburgueria construído com React e JavaScript. O aplicativo permite que os clientes façam pedidos e visualize os pedidos já feitos. Também inclui uma API personalizada para armazenar os dados dos pedidos.
+# Visão Geral
+Esta API oferece funcionalidades para clientes e administradores de uma hamburgueria, permitindo o cadastro de usuários, autenticação, realização de pedidos, administração de produtos, categorias e ofertas especiais.
 
-## Funcionalidades
+# Funcionalidades
+Autenticação de Usuário: Cadastro, login e logout de usuários.
+Pedidos: Realização de pedidos, consulta de histórico de pedidos.
+Administração de Produtos e Categorias: CRUD (Create, Read, Update, Delete) de produtos e categorias.
+Gerenciamento de Ofertas: Adição e remoção de produtos em oferta.
+Autorização e Segurança: Utilização de tokens JWT para autorização de rotas.
 
-- Cadastro de pedidos de hamburgueria.
-- Registro do nome do cliente com cada pedido.
-- Visualização de todos os pedidos feitos.
+# Tecnologias Utilizadas
+Node.js
+Sequelize ORM
+PostgreSQL (banco de dados)
+Docker (para containerização)
+Insomnia (para testes de API)
 
-## Tecnologias Usadas
+# Instalação
+git clone https://github.com/joaomelo90/code_burger_API_Final
 
-- [React](https://reactjs.org/): Uma biblioteca JavaScript para construção de interfaces de usuário.
-- [React Router](https://reactrouter.com/): Uma biblioteca para roteamento em aplicativos React.
-- [API Personalizada](https://github.com/joaomelo90/devburg-node): Uma API simples criada para armazenar os dados dos pedidos.
+# Instalação de dependências
+yarn install
+
+# Rodar a aplicação
+yarn dev
+
+# Uso
+Executar a API:
+
+Certifique-se de que o servidor está rodando corretamente.
+
+Testar as rotas:
+
+Utilize o Insomnia ou qualquer outra ferramenta para testar as rotas da API. O arquivo Insomnia_Requests.json contém exemplos de requisições para cada rota.
+
+# Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue para discutir sobre novas funcionalidades ou enviar um pull request com melhorias.
