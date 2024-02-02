@@ -24,7 +24,7 @@ class UserController {
       where: { email },
     })
     if (userExists) {
-      return response.status(400).json({ error: 'user already exists' })
+      return response.status(409).json({ error: 'user already exists' })
     }
 
     const user = await User.create({

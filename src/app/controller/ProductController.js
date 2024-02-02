@@ -47,6 +47,7 @@ class ProductController {
       ],
     })
 
+    console.log(request)
     return response.json(products)
   }
 
@@ -98,10 +99,6 @@ class ProductController {
     )
 
     return response.status(200).json()
-  }
-
-  catch(err) {
-    console.log(err)
   }
 }
 
