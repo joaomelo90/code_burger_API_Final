@@ -7,7 +7,7 @@ Esta API oferece funcionalidades para clientes e administradores de uma hamburgu
 # Funcionalidades
 Autenticação de Usuário: Cadastro, login e logout de usuários.
 Pedidos: Realização de pedidos, consulta de histórico de pedidos.
-Administração de Produtos e Categorias: CRUD (Create, Read, Update, Delete) de produtos e categorias.
+Administração de Produtos e Categorias: (Create, Update, Delete) de produtos e categorias.
 Gerenciamento de Ofertas: Adição e remoção de produtos em oferta.
 Autorização e Segurança: Utilização de tokens JWT para autorização de rotas.
 
